@@ -26,3 +26,6 @@ For CIFAR-10, we use 8 residual blocks, 64 feature maps, and downscale only once
  ADAM [33 ] with default hyperparameters and use an L2 regularization on the weight scale parameters with coefficient 5 · 10−5.
 
 
+eqx.filter_jit instead of jax.jit, eqx.nn.Lambda?
+
+
